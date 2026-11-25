@@ -2,7 +2,7 @@
 
 **Lean Six Sigma Green Belt capstone (Georgia Tech).** The scenario is based on a throughout problem I came across while in semiconductor wafer-manufacturing, and **all data is simulated**. This repo reproduces the Measure and Analyze phases in Python.
 
-![Monthly output vs target](reports/figures/monthly_output.png)
+![Monthly output vs target](figures/monthly_output.png)
 
 ## Business problem
 Finished output from Grinder #4 fell from **~10,000 wafers/month (1H 2024)** to **9,300 wafers/month (1H 2025)**. At ~$50 internal value per wafer, every 1,000-wafer shortfall costs roughly **$50,000/month**.
@@ -24,7 +24,7 @@ Finished output from Grinder #4 fell from **~10,000 wafers/month (1H 2024)** to 
 - **Wheel age, calibration age and changeover time** are not significant, either alone or together.
 - The model explains about a quarter of daily variation (R² ≈ 0.23), so unmeasured factors also matter.
 
-![Downtime Pareto](reports/figures/downtime_pareto.png)
+![Downtime Pareto](figures/downtime_pareto.png)
 
 ## Recommendations
 1. **Vacuum system:** full leak check, replace worn seals and tubing, add a monthly vacuum integrity check to preventive maintenance (~$1,000–1,200 one-off).
@@ -40,9 +40,9 @@ Finished output from Grinder #4 fell from **~10,000 wafers/month (1H 2024)** to 
 
 ## Repository structure
 ```
-data/        simulated daily, monthly and downtime datasets (CSV)
+Data/        simulated daily, monthly and downtime datasets (CSV)
 notebooks/   dmaic_analysis.ipynb: full analysis with outputs
-reports/     figures used in this README
+figures/     figures used in this README
 docs/        project presentation (PDF)
 ```
 
