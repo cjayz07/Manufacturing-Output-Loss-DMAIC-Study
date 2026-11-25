@@ -1,7 +1,0 @@
-Month,Total Wafers Processed,Finished Output (Pass),Broken Wafers,Fail Spec Wafers,Notes
-2025-01,9150,8800,150,200,PM downtime early in month
-2025-02,9150,8700,250,200,Slight yield loss due to wheel wear
-2025-03,10510,10200,180,130,Throughput recovered after wheel change
-2025-04,9110,8860,150,100,"Stable, minor metrology queue"
-2025-05,9500,9050,250,200,Short operator coverage
-2025-06,10200,10100,60,40,Best performance month
