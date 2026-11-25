@@ -1,11 +1,11 @@
 # Restoring Grinder #4 Wafer Output: a DMAIC Analysis
 
-**Lean Six Sigma Green Belt capstone (Georgia Tech).** The scenario is based on semiconductor wafer-manufacturing experience, and **all data is simulated**. This repo reproduces the Measure and Analyze phases in Python.
+**Lean Six Sigma Green Belt capstone (Georgia Tech).** The scenario is based on a throughout problem I came across while in semiconductor wafer-manufacturing, and **all data is simulated**. This repo reproduces the Measure and Analyze phases in Python.
 
 ![Monthly output vs target](reports/figures/monthly_output.png)
 
 ## Business problem
-Finished output from Grinder #4 fell from **~10,000 wafers/month** (1H 2024) to **~9,300 wafers/month** (1H 2025). At ~$50 internal value per wafer, every 1,000-wafer shortfall costs **~$50,000/month**.
+Finished output from Grinder #4 fell from **~10,000 wafers/month (1H 2024)** to **9,300 wafers/month (1H 2025)**. At ~$50 internal value per wafer, every 1,000-wafer shortfall costs roughly **$50,000/month**.
 
 **Goal:** restore output to ≥10,000 wafers/month for 3 consecutive months, without increasing breakage or fail-spec rates.
 
